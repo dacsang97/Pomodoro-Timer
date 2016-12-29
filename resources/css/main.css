@@ -1,0 +1,108 @@
+* {
+    -fx-font-family: 'Varela Round';
+    -fx-alignment: center;
+    -fx-text-fill: #fff;
+}
+
+#container {
+    -fx-background: #F2C777;
+    -fx-pref-width: 500px;
+    -fx-padding: 75px;
+    -fx-spacing: 20px;
+}
+
+
+#title {
+    -fx-font-size: 31px;
+}
+
+#vteam {
+    -fx-margin: -20px 0px 0px 0px;
+    -fx-font-size: 20px;
+}
+
+#time {
+    -fx-content-display: center;
+    -fx-pref-width: 350px;
+    -fx-background-color: #202428;
+    -fx-font-size: 80px;
+    -fx-line-height: 80px;
+    -fx-border-radius: 8px;
+    -fx-letter-spacing: 10px;
+}
+
+.buttons {
+    -fx-spacing: 10px;
+}
+
+.button {
+  -fx-border-radius: 6px;
+  -fx-border-width: 2px;
+  -fx-border-style: solid;
+  -fx-border-color: #fff;
+  -fx-background-color: none;
+  -fx-text-fill: #fff;
+  -fx-fill-width: true;
+  -fx-cursor: pointer;
+  -fx-padding: 10px 10px 10px 37px;
+  -fx-font-size: 20px;
+
+}
+
+.nested-action {
+    -fx-padding: 0px;
+}
+
+.svg-container {
+    -fx-padding: 0 0 0 17px;
+    -fx-alignment: center-left;
+}
+
+
+.restart .button {
+    -fx-padding: 10px 10px 10px 43px;
+}
+
+.svg {
+    -fx-fill: #fff;
+    -fx-height: 15px;
+}
+
+
+.text-area {
+    -fx-pref-width: 300px;
+    -fx-pref-row-count: 3;
+    -fx-border-radius: 6px;
+    -fx-border-width: 2px;
+    -fx-border-color: #fff;
+    -fx-border-style: solid;
+    -fx-font-size: 20px;
+    -fx-text-fill: #000;
+}
+
+/* State based selectors */
+
+.pause .svg-container {
+    -fx-padding: 0 0 0 25px;
+    -fx-spacing: 5px;
+}
+
+.pause {
+    visibility: hidden;
+}
+
+.playing .pause {
+    visibility: visible;
+}
+
+.playing .play {
+    visibility: hidden;
+}
+
+.focus {
+    -fx-background-color: #293240;
+}
+
+.break {
+    -fx-background-color: #F5623F;;
+}
