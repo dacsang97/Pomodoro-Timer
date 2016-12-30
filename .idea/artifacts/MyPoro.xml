@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="MyPoro">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyPoro</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="alias" value="" />
+        <option name="appClass" value="com.sangnd.pomodoro.Main" />
+        <option name="convertCss2Bin" value="true" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="macIcon" value="$PROJECT_DIR$/resources/images/icon_mac.icns" />
+            <option name="windowsIcon" value="$PROJECT_DIR$/resources/images/icon.ico" />
+          </JavaFxApplicationIcons>
+        </option>
+        <option name="keystore" value="" />
+        <option name="nativeBundle" value="dmg" />
+        <option name="title" value="My Poro" />
+        <option name="vendor" value="VTeam" />
+        <option name="version" value="1.0" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Pomodoro.jar">
+        <element id="module-output" name="Pomodoro" />
+      </element>
+    </root>
+  </artifact>
+</component>

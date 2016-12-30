@@ -9,7 +9,8 @@
 3. Run project
 
 ## Standalone version
-* Coming soon. Sorry, it is not available for now.
+* Window/ Linux/ Mac : [JAR Version](https://drive.google.com/file/d/0B5WdUWrnD4hVdWgxUU5xVDg4VHc/view?usp=sharing)
+* macOS: [File setup .DMG](https://drive.google.com/open?id=0B5WdUWrnD4hVd0NvSWtDZm9ENFE)
 
 ## Inspiration
 * [Treehouse](http://teamtreehouse.com/)
