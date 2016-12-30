@@ -1,7 +1,7 @@
 package com.sangnd.pomodoro.model;
 
 public enum AttemptKind {
-    FOCUS(3, "Thời gian tập trung"),
+    FOCUS(25 * 60, "Thời gian tập trung"),
     BREAK(5 * 60, "Giờ giải lao");
 
     private int mTotalSeconds;
